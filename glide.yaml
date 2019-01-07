@@ -1,0 +1,8 @@
+package: github.com/suaas21/k8s-extended-apiserver/extended-apiserver
+import:
+- package: github.com/spf13/afero
+  version: v1.2.0
+- package: k8s.io/client-go
+  version: v10.0.0
+  subpackages:
+  - util/cert

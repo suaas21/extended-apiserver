@@ -1,0 +1,19 @@
+hash: 71a0dcfc27dab1bda260768c88c00bacda8eea1e6c3a79a74f8a9de1302f6fe7
+updated: 2019-01-07T12:49:52.785293098+06:00
+imports:
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/spf13/afero
+  version: a5d6946387efe7d64d09dcba68cdd523dc1273a3
+  subpackages:
+  - mem
+- name: golang.org/x/text
+  version: b19bf474d317b857955b12035d2c5acb57ce8b01
+  subpackages:
+  - transform
+  - unicode/norm
+- name: k8s.io/client-go
+  version: e64494209f554a6723674bd494d69445fb76a1d4
+  subpackages:
+  - util/cert
+testImports: []
